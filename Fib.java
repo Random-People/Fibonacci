@@ -5,7 +5,6 @@ public class Fib {
 		p(0);
 		int a = 1;
 		p(a);	
-		a = 1;
 		p(a);
 		int b = a + a;
 		p(b);
