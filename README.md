@@ -1,3 +1,4 @@
+![](https://img.shields.io/github/repo-size/KaiLyons/Fibonacci) ![](https://img.shields.io/github/license/KaiLyons/Fibonacci)
 # The Fibonacci Project
 Development began on September 24th, 2019 as a little side-project to understand particularly few languages, and draft a report on them that never published. The project initially was abandoned for five months, then February 14th, 2020, I chose to return to this project to include all programming languages as possible. The intention of the project is a library of an incredible amount of languages currently added. I am gradually adding more languages with the aim of a hundred.
 
@@ -25,7 +26,6 @@ Feel free to email me requests [kai.lyons@kaix.live](mailto:kai.lyons@kaix.live)
 ## Arguments that do not apply
 - The language doesn't have to be in English just as long as I can type it without learning a whole new language
 > What I mean is that the language doesn't have to be readable in English, but cannot be in things like French, Japanese, or Russian. Symbol only languages like BrainFuck are allowed. Basically as long as it can be typed on a US/QWERTY keyboard it is allowed.
-
 - The languages currently banned from the list can be appealed in Issues. (template for a language appeal below)
    - An example is below it \
 > Your Name - The date - Your Time (24 hour prefered) (12 hour must include AM/PM) - Your Timezone/City, Country/State (You can use one, the other, or both) \
