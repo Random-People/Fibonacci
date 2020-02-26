@@ -1,0 +1,16 @@
+bruh
+complain(0);
+i hate a;
+i hate b;
+a is 1;
+b is 1;
+complain(a);
+complain(b);
+b is a + a;
+complain(b);
+me when (a < 1000000){
+  a is a+b;
+  complain(a);
+  b is a+b;
+  complain(b);
+}
