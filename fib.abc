@@ -1,0 +1,5 @@
+PUT 0 IN a
+PUT 1 IN b
+WHILE a < 10000000:
+    WRITE a
+    PUT b,a+b IN a,b
