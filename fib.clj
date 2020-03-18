@@ -1,0 +1,15 @@
+(def a 1)
+(def b (+ a a))
+(println 0)
+(println 1)
+(println a)
+(println b)
+(defn loopit [a b]
+    (def c (+ a b))
+    (def d (+ b c))
+    (println c)
+    (println d)
+    (if (< c 1000000)
+        (do
+            (loopit c d))))
+(loopit a b)
