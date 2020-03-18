@@ -23,6 +23,49 @@ Feel free to email me requests [kai.lyons@kaix.live](mailto:kai.lyons@kaix.live)
 > 5. The compiler has to be installable from a package manager or from source in under 10 minutes (Languages have been docked off the project for this, one of which is called Beef)
 > 6. Must have an existing compiler/interpreter or just some way to run it at all (several languages have been docked for this)
 
+For a languages syntax to be redone (like a few here have by our contributers) it has to contain print statements, variable settings, and loops. Whether or not it is a "better way to do x" if it doesn't contain those systems it cannot be added. In general, especially for new files do the following (example in Psuedo-code):
+```
+print 0
+print 1
+set a = 1
+set b = a + a
+print a
+print b
+while a < 1000000 {
+   set a = a + b
+   set b = a + b
+   print a
+   print b
+}
+```
+If the language does not support loops, make sure to mention it in the pull request. Optionally you could create a function to represent a loop. An example in the same psuedo-code format.
+```
+function loop(a, b){
+   set a = a + b
+   set b = a + b
+   print a
+   print b 
+   while(a, b)
+}
+
+function while (a, b){
+   if a < 1000000{
+      loop(a, b)
+   } else {
+      return 0
+   }
+}
+
+print 0
+print 1
+set a = 1
+set b = a + a
+print a
+print b
+while(a, b)
+```
+Those are examples and are not the end-all-be-all of how this works. If you can make it loop SOMEHOW, with basic output to CLI, and mutable variables (or changing variables by functions), then it can be added. "But <somelang> language can't do any of that". Don't fret, it is still possible to add it here. We have a folder called "[Imperfect Languages](https://github.com/ICBIPL/Fibonacci/tree/master/Imperfect%20Languages)" which is where all the non-compliant languages go. They will still be added to the [ICBIPL Languages Page](https://icbipl.com/languages) as a normal language without an "imperfect status".
+
 ## Arguments that do not apply
 - The language doesn't have to be in English just as long as I can type it without learning a whole new language
 > What I mean is that the language doesn't have to be readable in English, but cannot be in things like French, Japanese, or Russian. Symbol only languages like BrainFuck are allowed. Basically as long as it can be typed on a US/QWERTY keyboard it is allowed.
