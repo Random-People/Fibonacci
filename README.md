@@ -68,7 +68,25 @@ Those are examples and are not the end-all-be-all of how this works. If you can 
 
 ## Arguments that do not apply
 - The language doesn't have to be in English just as long as I can type it without learning a whole new language
-> What I mean is that the language doesn't have to be readable in English, but cannot be in things like French, Japanese, or Russian. Symbol only languages like BrainFuck are allowed. Basically as long as it can be typed on a US/QWERTY keyboard it is allowed.
+> What I mean is that the language doesn't have to be readable in English, but cannot be in things like French, Japanese, or Russian. Symbol only languages like BrainFuck are allowed. Basically as long as it can be typed on a US/QWERTY keyboard it is allowed. 
+
+In a psuedo-code example it can be like:
+```
+p:: 0
+p:: 1
+a::= 1
+b::= (+a a)
+p:: -(a)
+p:: -(b)
+{}a < 1000000[
+   a-:= a + b
+   b-:= a + b
+   p:: -(a)
+   p:: -(b)
+]
+```
+None of that made sense in english, and for example Brainfuck is a symbols only language, and although in a "imperfect" status, it would be in the normal folder if how high it could count was at the "3524578" standard, which we classify as the minimum, so the syntax doesn't matter as long as a US QWERTY keyboard can type it. Now this is only because of trying to keep a proper standard and also allowing more people to contribute.
+
 - The languages currently banned from the list can be appealed in Issues. (template for a language appeal below)
    - An example is below it \
 > Your Name - The date - Your Time (24 hour prefered) (12 hour must include AM/PM) - Your Timezone/City, Country/State (You can use one, the other, or both) \
