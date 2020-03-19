@@ -1,0 +1,16 @@
+puts(0, "\n");
+puts(1, "\n");
+let a = 1;
+let b = a + a;
+puts(a, "\n")
+puts(b, "\n")
+let while = fn(a, b){
+    if (a < 1000000){
+        a = a + b;
+        b = a + b;
+        puts(a, "\n")
+        puts(b, "\n")  
+        while(a, b);
+    }
+};
+while(a, b);
