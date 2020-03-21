@@ -1,5 +1,8 @@
 ![](https://img.shields.io/github/repo-size/KaiLyons/Fibonacci) ![](https://img.shields.io/github/license/KaiLyons/Fibonacci)
 # The Fibonacci Project
+
+**UPDATE: As of March 21, 2020 we are offically allowing "extension" languages that used to break the first rule that said it needed to run its own compiler or interpreter. No longer the case, and this means languages like TypeScript, CoffeeScript, and others will be getting a chance.** 
+
 Development began on September 24th, 2019 as a little side-project to understand particularly few languages, and draft a report on them that never published. The project initially was abandoned for five months, then February 14th, 2020, I chose to return to this project to include all programming languages as possible. The intention of the project is a library of an incredible amount of languages currently added. I am gradually adding more languages with the aim of a hundred.
 
 The entire project uses the same setup for each language, with only small differences in each. The format being print the first two numbers of the sequence manually, set the two main variables, to finally use a while loop of the key variable being less than one million.
@@ -7,9 +10,6 @@ The entire project uses the same setup for each language, with only small differ
 Feel free to email me requests [kai.lyons@kaix.live](mailto:kai.lyons@kaix.live)
 
 # Rules for Languages To Be Included:
-- Have to have a seperate compiler/interpreter or just some way to run without an extra layer
-> This means NO extention languages like TypeScript or CoffeeScript as they cannot compile/run on their own without translating to the original language (in this case, JavaScript). If an extention language has its own compiler (including third party ones from companies/organizations that are well known/respected (as in having some hold in the enterprise realm) i.e. C++ (extention of C) then the language can be included) -- This rule MIGHT change in the near future.
-
 - The language needs three basic componants (listed below)
 > 1. Ability to print variables/numbers
 > 2. Ability to mutate variables
