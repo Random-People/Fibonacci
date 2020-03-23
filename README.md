@@ -1,4 +1,3 @@
-![](https://img.shields.io/github/repo-size/KaiLyons/Fibonacci) ![](https://img.shields.io/github/license/KaiLyons/Fibonacci)
 # The Fibonacci Project
 
 **UPDATE: As of March 21, 2020 we are offically allowing "extension" languages that used to break the first rule that said it needed to run its own compiler or interpreter. No longer the case, and this means languages like TypeScript, CoffeeScript, and others will be getting a chance.** 
