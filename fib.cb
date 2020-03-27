@@ -1,0 +1,9 @@
+// https://github.com/CabooseLang/Caboose
+fun fib(x, y) {
+    if(x >= 1000000) {
+        return;
+    }
+    println(x);
+    return fib(y, x + y);
+}
+fib(0, 1);
