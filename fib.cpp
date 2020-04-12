@@ -1,13 +1,26 @@
-#include <iostream>
+#include<bits/stdc++.h>
+
 using namespace std;
 
-int main(){
-    int a = 1;
-    int b = a + a;
-    cout << 0 << endl << 1 << endl <<a << endl << b << endl;
-    while (a < 1000000) {
-        a = a + b;
-        b = a + b;
-        cout << a << endl << b << endl;
+int fibonacci(int n) {
+    if (n == 0) {
+        return 0;
+    }
+    if (n == 1) {
+        return 1;
+    }
+    int ans = fibonacci(n - 1) + fibonacci(n - 2);
+    return ans;
+}
+
+int32_t main()
+{
+    ios_base:: sync_with_stdio(false);
+    cin.tie(NULL); cout.tie(NULL);
+    {
+        for (int i = 0; i < 35; ++i)
+        {
+            cout << fibonacci(i) << endl;
+        }
     }
 }
