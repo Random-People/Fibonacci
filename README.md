@@ -1,6 +1,4 @@
-# The Fibonacci Project
-
-**UPDATE: As of March 21, 2020 we are offically allowing "extension" languages that used to break the first rule that said it needed to run its own compiler or interpreter. No longer the case, and this means languages like TypeScript, CoffeeScript, and others will be getting a chance.** 
+# The Fibonacci Project 
 
 Development began on September 24th, 2019 as a little side-project to understand particularly few languages, and draft a report on them that never published. The project initially was abandoned for five months, then February 14th, 2020, I chose to return to this project to include all programming languages as possible. The intention of the project is a library of an incredible amount of languages currently added. I am gradually adding more languages with the aim of a hundred.
 
