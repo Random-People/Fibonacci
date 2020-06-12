@@ -2,7 +2,7 @@
 So there is a section in the main README.md file in the normal repository that specifies rules. These languages are either test languages or just simply languages that have no way to bend the rules into their favor.
 
 ### What does this mean?
-Basically languages that cannot hit the full marks demonstraited by the prime examples in the directory above. This can be code written by other people who couldn't get it to work and me [Kai Lyons](https://github.com/KaiLyons) could not fix it
+Basically languages that cannot hit the full marks demonstrated by the prime examples in the directory above. This can be code written by other people who couldn't get it to work and me [Kai Lyons](https://github.com/KaiLyons) could not fix it.
 
 ### Can a language be promoted to the main directory?
 Yes, if we find a way to make it work that not only conforms to the standards but also meet new expectations.
