@@ -1,0 +1,11 @@
+# This is in Imperfect Languages because it has not yet been compiled
+a = 1
+b = a + a
+puts(0)
+puts(1)
+while a < 1000000 do
+    a = a + b
+    b = a + b
+    puts(a)
+    puts(b)
+end
