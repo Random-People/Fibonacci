@@ -5,7 +5,7 @@ So there is a section in the main README.md file in the normal repository that s
 Basically languages that cannot hit the full marks demonstrated by the prime examples in the directory above. This can be code written by other people who couldn't get it to work and me [Kai Lyons](https://github.com/KaiLyons) could not fix it.
 
 ### Can a language be promoted to the main directory?
-Yes, if we find a way to make it work that not only conforms to the standards but also meet new expectations.
+Yes, if we find a way to make it work that not only confirms to the standards but also meet new expectations.
 
 ### X language is in the directory above and it doesn't work with Y rule, why does Z language get sent here?
 For example lanugages like Haskell, Elixir, and Lolcode all do not have while OR for loops, but they have work arounds. If Z language is here it doesn't meet a written or unwritten requirement.
