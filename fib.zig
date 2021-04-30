@@ -6,7 +6,7 @@ pub fn main() !void {
     try stdout.print("0\n1\n", .{});
     
     var a: u32 = 1;
-    try stdout.print("{}\n{}\n", .{a});
+    try stdout.print("{}\n", .{a});
 
     var b: u32 = 2 * a;
     try stdout.print("{}\n", .{b});
