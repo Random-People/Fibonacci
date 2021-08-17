@@ -1,0 +1,6 @@
+(let loop ((a 0)
+           (b 1))
+  (display a)
+  (newline)
+  (if (<= a 1000000)
+    (loop (+ a b) a)))
