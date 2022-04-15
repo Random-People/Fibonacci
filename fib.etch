@@ -1,0 +1,9 @@
+a = 0
+b = 1
+n = :int:get;;
+while a < n do
+    :outnnl a " ";
+    c = a
+    a = b
+    b = c+b
+done
